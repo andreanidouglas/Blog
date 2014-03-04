@@ -104,7 +104,7 @@
  * included primarily as a development convenience - and
  * thus not recommended for production applications.
  */
-	//Configure::write('App.baseUrl', env('SCRIPT_NAME'));
+	Configure::write('App.baseUrl', env('SCRIPT_NAME'));
 
 /**
  * To configure CakePHP to use a particular domain URL
@@ -222,12 +222,12 @@
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'DYhGsdiuasydiasuhddyafgdsfhoiC9mi');
+	Configure::write('Security.salt', 'DYhGsdiuasydiasuhddy12312asdasd#$%*&afgdsfhoiC9mi');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-	Configure::write('Security.cipherSeed', '763213871239827321893683645');
+	Configure::write('Security.cipherSeed', '763213132309876543871239827321893683645');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).

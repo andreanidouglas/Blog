@@ -1,0 +1,165 @@
+2014-03-04 17:16:05 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\cakephp\index.php(41): require('C:\xampp\htdocs...')
+#2 {main}
+2014-03-04 17:18:54 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\cakephp\index.php(41): require('C:\xampp\htdocs...')
+#2 {main}
+2014-03-04 17:21:00 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\cakephp\index.php(41): require('C:\xampp\htdocs...')
+#2 {main}
+2014-03-04 17:23:58 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\cakephp\index.php(41): require('C:\xampp\htdocs...')
+#2 {main}
+2014-03-04 17:27:06 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\cakephp\index.php(41): require('C:\xampp\htdocs...')
+#2 {main}
+2014-03-04 17:27:45 Error: [MissingActionException] Action CakephpController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'CakephpController',
+  'action' => 'index',
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 C:\xampp\htdocs\cakephp\index.php(41): require('C:\xampp\htdocs...')
+#4 {main}
+2014-03-04 17:27:59 Error: [MissingViewException] View file "C:\xampp\htdocs\cakephp\app\View\Cakephp\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\cakephp\\app\\View\\Cakephp\\index.ctp',
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(463): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CakephpController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cakephp\index.php(41): require('C:\xampp\htdocs...')
+#6 {main}
+2014-03-04 17:28:44 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/posts/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\cakephp\index.php(41): require('C:\xampp\htdocs...')
+#2 {main}
+2014-03-04 17:29:25 Error: [MissingControllerException] Controller class CakephpController could not be found.
+Exception Attributes: array (
+  'class' => 'CakephpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\cakephp\index.php(41): require('C:\xampp\htdocs...')
+#2 {main}
+2014-03-04 17:31:59 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\cakephp\app\Controller\CakephpController.php, line 16]
+2014-03-04 17:31:59 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 16, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 16, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-04 17:32:13 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) in [C:\xampp\htdocs\cakephp\app\Controller\CakephpController.php, line 10]
+2014-03-04 17:32:13 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-04 17:32:21 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) in [C:\xampp\htdocs\cakephp\app\Controller\CakephpController.php, line 10]
+2014-03-04 17:32:21 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION)
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-04 17:32:29 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\cakephp\app\Controller\CakephpController.php, line 17]
+2014-03-04 17:32:29 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakephp/index.php/cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 17, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-04 17:32:38 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/posts/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\cakephp\index.php(41): require('C:\xampp\htdocs...')
+#2 {main}
+2014-03-04 17:34:44 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/posts/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\cakephp\index.php(41): require('C:\xampp\htdocs...')
+#2 {main}
+2014-03-04 17:35:32 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.php/posts/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\cakephp\index.php(41): require('C:\xampp\htdocs...')
+#2 {main}
