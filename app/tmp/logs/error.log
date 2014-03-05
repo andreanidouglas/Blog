@@ -213,3 +213,47 @@ Stack Trace:
 #0 C:\xampp\htdocs\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 C:\xampp\htdocs\blog\index.php(41): require('C:\xampp\htdocs...')
 #2 {main}
+2014-03-05 22:07:26 Error: Fatal Error (1): Call to undefined function validates() in [C:\xampp\htdocs\blog\app\View\Posts\add.ctp, line 6]
+2014-03-05 22:07:26 Error: [FatalErrorException] Call to undefined function validates()
+Request URL: /blog/index.php/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-05 22:14:08 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\blog\app\View\Posts\add.ctp, line 6]
+2014-03-05 22:14:08 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /blog/index.php/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\blog\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\blog\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-05 22:17:15 Error: [CakeException] Method validates does not exist
+Request URL: /blog/index.php/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\Controller\PostsController.php(16): CakeRequest->__call('validates', Array)
+#1 C:\xampp\htdocs\blog\app\Controller\PostsController.php(16): CakeRequest->validates()
+#2 [internal function]: PostsController->add()
+#3 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#4 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\blog\index.php(41): require('C:\xampp\htdocs...')
+#8 {main}
+2014-03-05 22:17:27 Error: [CakeException] Method validates does not exist
+Request URL: /blog/index.php/posts/add
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\Controller\PostsController.php(16): CakeRequest->__call('validates', Array)
+#1 C:\xampp\htdocs\blog\app\Controller\PostsController.php(16): CakeRequest->validates()
+#2 [internal function]: PostsController->add()
+#3 C:\xampp\htdocs\blog\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#4 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\blog\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 C:\xampp\htdocs\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 C:\xampp\htdocs\blog\index.php(41): require('C:\xampp\htdocs...')
+#8 {main}
