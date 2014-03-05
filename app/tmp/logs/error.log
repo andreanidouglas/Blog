@@ -163,3 +163,53 @@ Stack Trace:
 #0 C:\xampp\htdocs\cakephp\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 C:\xampp\htdocs\cakephp\index.php(41): require('C:\xampp\htdocs...')
 #2 {main}
+2014-03-05 16:02:15 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /blog/index.php/blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\blog\index.php(41): require('C:\xampp\htdocs...')
+#2 {main}
+2014-03-05 16:02:44 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /blog/index.php/blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\blog\index.php(41): require('C:\xampp\htdocs...')
+#2 {main}
+2014-03-05 16:02:44 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /blog/index.php/blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\blog\index.php(41): require('C:\xampp\htdocs...')
+#2 {main}
+2014-03-05 16:02:45 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /blog/index.php/blog/
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\blog\index.php(41): require('C:\xampp\htdocs...')
+#2 {main}
+2014-03-05 16:03:02 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /blog/index.php/posts/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\blog\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 C:\xampp\htdocs\blog\index.php(41): require('C:\xampp\htdocs...')
+#2 {main}
